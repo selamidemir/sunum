@@ -1,0 +1,36 @@
+.navbar {
+    height: 71px;
+}
+
+.navbar .navbar-logo {
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+}
+
+.nav-item .nav-link {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.nav-item .nav-link:hover {
+    color: red;
+}
+
+
+@-webkit-keyframes headerSlideDown {
+    0% {
+      margin-top: -100px;
+    }
+    to {
+      margin-top: 0;
+    }
+  }
+  @keyframes headerSlideDown {
+    0% {
+      margin-top: -100px;
+    }
+    to {
+      margin-top: 0;
+    }
+  }
