@@ -17,6 +17,41 @@
     color: red;
 }
 
+/* About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-content: space-around ;
+    margin-top: 35px;
+    padding: 15px;
+    color: white;
+}
+
+.about-description {
+  width: 50%;
+  height: 155px;
+  font-size: 19px;
+}
+
+.about-description h2 {
+  text-align: right;
+  font-family: 'Fraunces', serif;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 55px;
+}
+
+.about-description hr {
+  width: 90%;
+}
+
+.about-image {
+  width: 50%;
+  border: 55px solid white;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
 
 @-webkit-keyframes headerSlideDown {
     0% {
