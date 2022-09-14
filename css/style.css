@@ -17,6 +17,32 @@
     color: red;
 }
 
+/* Hero Section */
+.move-first {
+  /* transform: translateX(255px); */
+  position: relative;
+  animation-name: move-01;
+  animation-duration: 1s;
+}
+
+.delay-10 {
+  animation-delay: 0.1s;
+}
+
+.delay-20 {
+  animation-delay: 0.2s;
+}
+
+.delay-30 {
+  animation-delay: 0.3s;
+}
+
+
+@keyframes move-01 {
+  from { left: -255px}
+  to { left: 0px}
+}
+
 /* About Section */
 .about {
     display: flex;
