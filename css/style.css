@@ -1,20 +1,137 @@
 .navbar {
-    height: 71px;
+  height: 71px;
 }
 
 .navbar .navbar-logo {
-    height: 65px;
-    width: 65px;
-    border-radius: 50px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50px;
 }
 
 .nav-item .nav-link {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 500;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
 }
 
 .nav-item .nav-link:hover {
-    color: red;
+  color: red;
+}
+
+/* About Section */
+.about-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  padding: 15px;
+  color: white;
+}
+
+.about-description {
+  width: 50%;
+  height: 155px;
+  font-size: 19px;
+}
+
+.about-description h2 {
+  text-align: right;
+  font-family: "Fraunces", serif;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 55px;
+}
+
+.about-description hr {
+  width: 90%;
+}
+
+.about-image {
+  width: 50%;
+  margin-right: 35px;
+  border: 55px solid white;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-image: url('/images/design.jpg');
+  background-attachment: fixed;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.services {
+  height: 100vh;
+  background-color: lightgreen;
+}
+
+.services h2 {
+  font-family: "Fraunces", serif;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.portfolio {
+  height: 100vh;
+  background-color: darkgrey;
+}
+
+.portfolio h2 {
+  font-family: "Fraunces", serif;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.testimonial {
+  height: 100vh;
+  background-color: darkcyan;
+}
+
+.testimonial h2 {
+  font-family: "Fraunces", serif;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.contact {
+  height: 100vh;
+  background-color: bisque;
+}
+
+.contact h2 {
+  font-family: "Fraunces", serif;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.diveder {
+  height: 95px;
+}
+
+.footer {
+  margin-top: 15px;
+}
+
+@-webkit-keyframes headerSlideDown {
+  0% {
+    margin-top: -100px;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}
+
+@keyframes headerSlideDown {
+  0% {
+    margin-top: -100px;
+  }
+
+  to {
+    margin-top: 0;
+  }
 }
 
 /* Hero Section */
@@ -37,61 +154,12 @@
   animation-delay: 0.3s;
 }
 
-
 @keyframes move-01 {
-  from { left: -255px}
-  to { left: 0px}
-}
-
-/* About Section */
-.about {
-    display: flex;
-    justify-content: center;
-    align-content: space-around ;
-    margin-top: 35px;
-    padding: 15px;
-    color: white;
-}
-
-.about-description {
-  width: 50%;
-  height: 155px;
-  font-size: 19px;
-}
-
-.about-description h2 {
-  text-align: right;
-  font-family: 'Fraunces', serif;
-  font-size: 45px;
-  font-weight: 700;
-  font-style: italic;
-  margin: 55px;
-}
-
-.about-description hr {
-  width: 90%;
-}
-
-.about-image {
-  width: 50%;
-  border: 55px solid white;
-  border-top-left-radius: 35px;
-  border-bottom-right-radius: 35px;
-}
-
-@-webkit-keyframes headerSlideDown {
-    0% {
-      margin-top: -100px;
-    }
-    to {
-      margin-top: 0;
-    }
+  from {
+    left: -255px;
   }
-  @keyframes headerSlideDown {
-    0% {
-      margin-top: -100px;
-    }
-    to {
-      margin-top: 0;
-    }
+
+  to {
+    left: 0px;
   }
+}
