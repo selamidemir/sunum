@@ -3,8 +3,8 @@
 }
 
 .navbar .navbar-logo {
-  height: 65px;
-  width: 65px;
+  height: 57px;
+  width: 57px;
   border-radius: 50px;
 }
 
@@ -15,6 +15,17 @@
 }
 
 .nav-item .nav-link:hover {
+  color: red;
+}
+
+.navbar-text a {
+  text-decoration: none;
+  margin-left: 9px;
+  font-size: 17px;
+  color: black;
+}
+
+.navbar-text a:hover {
   color: red;
 }
 
@@ -205,7 +216,7 @@
 }
 
 .contact {
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 90px;
 }
 
@@ -405,3 +416,9 @@ footer p a {
 }
 
 /*-- Footer CSS --*/
+
+@media only screen and (max-width: 576px) {
+  .navbar-collapse {
+    border-bottom: 1px darkgray solid;
+  }
+}
