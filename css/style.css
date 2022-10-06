@@ -263,7 +263,6 @@
 
 /* Hero Section */
 .move-first {
-  /* transform: translateX(255px); */
   position: relative;
   animation-name: move-01;
   animation-duration: 1s;
